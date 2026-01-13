@@ -1,0 +1,8 @@
+tp_auth/
+├── database.sql     # Script de création BDD
+├── db.php           # Connexion PDO (avec try...catch)
+├── register.php     # Inscription (INSERT + password_hash)
+├── login.php        # Connexion (SELECT + password_verify)
+├── dashboard.php    # Page membre (vérification session)
+├── logout.php       # Destruction session
+└── style.css        # Optionnel - pour la présentation

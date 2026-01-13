@@ -1,0 +1,77 @@
+
+/* Couleurs et police globales */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Contenu principal */
+main.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Titres */
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* Carte (par exemple pour les formulaires login/register) */
+.card {
+    border-radius: 0.75rem;
+    border: 1px solid #e0e4ea;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
+}
+
+/* Boutons principaux */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+/* Liens */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Petites alertes/messages */
+.alert-info {
+    background-color: #e9f3ff;
+    border-color: #b6d4fe;
+}
+
+/* Centrer un bloc formulaire */
+.form-wrapper {
+    max-width: 420px;
+    margin: 40px auto;
+}
+
+/* Inputs */
+form .form-control {
+    border-radius: 0.5rem;
+}
+
+/* Pied de page simple */
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    color: #777;
+    font-size: 0.9rem;
+}
